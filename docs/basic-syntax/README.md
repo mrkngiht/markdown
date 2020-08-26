@@ -6,12 +6,6 @@ sidebarDepth: 3
 
 几乎所有 Markdown 应用程序都支持 John Gruber 原始设计文档中列出的 Markdown 基本语法。但是，Markdown 处理程序之间存在着细微的变化和差异，我们都会尽可能标记出来。让您十分钟快速掌握 Markdown 语法，让我们从 [Markdown 标题语法](https://markdown.com.cn/basic-syntax/headings.html)开始讲解。
 
-## Markdown 的优点
-
-- 纯文本，所以兼容性极强，可以用所有文本编辑器打开。
-- 让你专注于文字而不是排版。
-- 格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。
-- Markdown 的标记语法有极好的可读性。
 
 ## Markdown 是什么
 
@@ -19,6 +13,13 @@ Markdown 是一种轻量级标记语言，它允许人们使用易读易写的�
 Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。  
 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。  
 Markdown 编写的文档后缀为 `.md`, `.markdown`。 
+
+## Markdown 的优点
+
+纯文本，所以兼容性极强，可以用所有文本编辑器打开。  
+让你专注于文字而不是排版。  
+格式转换方便，Markdown 的文本你可以轻松转换为 html、电子书等。  
+Markdown 的标记语法有极好的可读性。
 
 ## Markdown 应用
 

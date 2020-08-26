@@ -1,7 +1,8 @@
 ---
 sidebar: auto
+description: 了解 Markdown 的必备知识。介绍 Markdown 的历史，Markdown 的工作原理，以及使用 Markdwon 有什么好处。
 ---
-## [](#markdown)Markdown 是什么？
+## Markdown 是什么？
 
 Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 [John Gruber](https://daringfireball.net/projects/markdown/) 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。
 
@@ -17,7 +18,7 @@ Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添�
 
 > Markdown 语法的首要设计目标是尽可能易读。基于这个目标，Markdown 格式的文档能够以纯文本形式原样发布，而不会看起来像被填满了标签或格式化指令。
 
-## 为什么要使用 Markdown？[](#为什么要使用markdown)
+## 为什么要使用 Markdown？
 
 你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：
 
@@ -31,7 +32,7 @@ Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添�
 
 * Markdown 无处不在。例如 [Reddit](/tools/reddit/) 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。
 
-## 工欲善其事，必先利其器[](#工欲善其事必先利其器)
+## 工欲善其事，必先利其器
 
 Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。
 
@@ -41,7 +42,7 @@ Markdown 入门的最佳方式就是多使用它。由于有大量免费工具�
 
 阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。
 
-## Markdown 的工作原理[](#markdown\-的工作原理)
+## Markdown 的工作原理
 
 Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。
 
@@ -64,7 +65,7 @@ Markdown 应用程序使用一种称为 _Markdown 处理器_（也通常称为�
 
 从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。
 
-## Markdown 有什么用？[](#markdown\-有什么用)
+## Markdown 有什么用？
 
 Markdown 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。
 
@@ -72,7 +73,7 @@ Markdown 是做笔记、为网站创建内容以及生成可打印文档的快�
 
 下面是一些你可以使用 Markdown 的场景。
 
-### 网站[](#网站)
+### 网站
 
 Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。
 
@@ -84,7 +85,7 @@ Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建
 
 如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 [Ghost](/tools/ghost/)。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 [支持 Markdown](https://en.support.wordpress.com/markdown/)。自托管的 WordPress 网站可以使用 [Jetpack 插件](https://jetpack.com/support/markdown/)实现对 Markdown 的支持。
 
-### 文件资料[](#文件资料)
+### 文件资料
 
 Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功能，但是对于创建基本文件（例如作业和信件）来说已经足够了。你可以使用 Markdown 文档创作工具来创建 Markdown 格式的文档并将其导出为 PDF 或 HTML 格式。PDF 格式是关键，因为一旦有了 PDF 文档，您就可以使用它进行任何操作：打印、通过电子邮件发送或将其上传到网站。
 
@@ -98,7 +99,7 @@ Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功�
 
 **提示：** [iA Writer](https://ia.net/writer/templates/) 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双句间距。
 
-### 笔记[](#笔记)
+### 笔记
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 [Evernote](https://evernote.com/) 和 [OneNote](https://www.onenote.com/) 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 _是_ 支持 Markdown 的：
 
@@ -109,19 +110,19 @@ Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功�
 
 如果你无法放弃 Evernote，可以试试 [Marxico](https://marxi.co/)，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 [Markdown Here](/tools/markdown-here/) 插件。
 
-### 书籍[](#书籍)
+### 书籍
 
 想要自行出版小说？请试试 [Leanpub](https://leanpub.com/)，该服务可将你的 Markdown 格式的文件转换为电子书。Leanpub 以 PDF、EPUB 和 MOBI 文件格式输出你的图书。如果你要创建纸版书籍，可以将 PDF 文件上传到类似 [Kindle Direct Publishing](https://kdp.amazon.com) 之类的服务提供商处。要了解有关使用 Markdown 编写和自行出版书籍的更多信息，请阅读 [此博文](https://medium.com/techspiration-ideas-making-it-happen/how-i-wrote-and-published-my-novel-using-only-open-source-tools-5cdfbd7c00ca)。
 
-### 演示文稿[](#演示文稿)
+### 演示文稿
 
 信不信由你，你可以将 Markdown 格式的文件转换成演示文稿。在 Markdown 中创建演示文稿需要一点时间来适应，但是一旦你掌握了它，你就能体会到比使用 PowerPoint 或 Keynote 之类的应用程序更快、更容易。[Remark](https://remarkjs.com)（[GitHub 仓库](https://github.com/gnab/remark)）和 [Cleaver](https://jdan.github.io/cleaver/)（[GitHub 仓库](https://github.com/jdan/cleaver)）一样，是一种基于浏览器的、流行的 Markdown 幻灯片工具。如果你使用的是 Mac，并且希望安装一个应用程序来使用的话，请试试 [Deckset](https://www.decksetapp.com/) 或 [Marked](https://marked2app.com/)。
 
-### 邮件[](#邮件)
+### 邮件
 
 如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：[Markdown Here](/tools/markdown-here/) 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。
 
-### 文档[](#文档)
+### 文档
 
 Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 [博文](https://github.com/blog/1939-how-github-uses-github-to-document-github) 以了解如何将 Markdown 格式的文档迁移到 [Jekyll](/tools/jekyll/)。如果你是为产品或服务编写文档，请试试以下的便捷工具：
 
@@ -131,7 +132,7 @@ Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转
 * [VuePress](https://vuepress.vuejs.org/) 是基于 [Vue](https://vuejs.org/) 构建的静态站点生成器，并针对编写技术文档进行了优化。
 * [Jekyll](/tools/jekyll/) 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 [Jekyll 文档主题](https://idratherbewriting.com/documentation-theme-jekyll/)。
 
-## Markdown 方言[](#markdown\-方言)
+## Markdown 方言
 
 使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 _flavors（方言）_。掌握你的应用程序所实现的 Markdown 语法是你需要主义的。
 
@@ -141,7 +142,7 @@ Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转
 
 如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 [Markdown 工具列表](/tools/) 中找到合适的应用程序。
 
-## 其它资源[](#其它资源)
+## 其它资源
 
 网上有很多资源用来学习 Markdown。以下列出一些：
 
