@@ -5,7 +5,6 @@ locales: {
     '/': {
       lang: 'zh-CN',
       title: 'Markdown教程',
-      description: 'Markdown 是一种用来文本处理的轻量级 「标记语言」，它用简洁的语法代替排版，而无需像Microsoft的Word一样需要花费大量的时间进行排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式',
     },
   },
   head: [
@@ -15,6 +14,7 @@ locales: {
   ],
 
   themeConfig: {
+    sidebarDepth: 2,
     repo: '',
     editLinks: false,
     docsDir: 'docs',
@@ -31,11 +31,11 @@ locales: {
       },
       {
         text: '基本语法',
-        link: '/basic-syntax.md',
+        link: '/basic-syntax/',
       },
       {
         text: '扩展语法',
-        link: '/extended-syntax.md',
+        link: '/extended-syntax/',
       },
       {
         text: '工具',
@@ -51,17 +51,9 @@ locales: {
       }
     ],
     sidebar: {
-      '/guide/': [
-        {
-          title: 'Guide',
-          collapsable: false,
-          children: [
-            '',
-            'using-vue',
-          ]
-        }
-      ],
-    }
+      '/basic-syntax/':getSidebarGuide(),
+	  '/extended-syntax/':getExtendedSidebarGuide(),
+    },
   },
 
   /**
@@ -72,3 +64,50 @@ locales: {
     '@vuepress/plugin-medium-zoom',
   ]
 }
+
+function getSidebarGuide () {
+  return [
+    {
+      title: '基本语法',
+      collapsable: false,
+      children: [
+        '',
+		'headings',
+		'paragraphs',
+		'line-breaks',
+		'emphasis',
+		'blockquotes',
+		'lists',
+		'code',
+		'horizontal-rules',
+		'links',
+		'images',
+		'escaping-characters',
+		'html',
+      ]
+    }
+  ]
+}
+
+function getExtendedSidebarGuide () {
+  return [
+    {
+      title: 'markdown扩展语法',
+      collapsable: false,
+      children: [
+        '',
+		'availability',
+		'tables',
+		'fenced-code-blocks',
+		'footnotes',
+		'heading-ids',
+		'definition-lists',
+		'strikethrough',
+		'task-lists',
+		'emoji',
+		'automatic-url-linking',
+      ]
+    }
+  ]
+}
+

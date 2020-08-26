@@ -1,15 +1,10 @@
 ---
-title: Line Breaks
-syntax-id: line-breaks
-description: "To create a line break (`<br>`), end a line with two or more spaces, and then type return."
-examples:
-  - markdown: |
-      This is the first line.  
-      And this is the second line.
-    html: "<p>This is the first line.  <br>And this is the second line.</p>"
+title: Markdown换行
 ---
 
-To create a line break (`<br>`), end a line with two or more spaces, and then type return.
+# Markdown换行
+
+在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(`<br>`)。
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -29,7 +24,6 @@ To create a line break (`<br>`), end a line with two or more spaces, and then ty
       </td>
       <td>
         <code class="highlighter-rouge">&lt;p&gt;This is the first line.&lt;br&gt;<br />
-
         And this is the second line.&lt;/p&gt;</code>
       </td>
       <td>
@@ -40,7 +34,7 @@ To create a line break (`<br>`), end a line with two or more spaces, and then ty
   </tbody>
 </table>
 
-### Line Break Best Practices
+## Line Break Best Practices
 
 You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
 
@@ -61,7 +55,6 @@ There are two other options I don't recommend using. CommonMark and a few other 
         <code class="highlighter-rouge">
           First line with two spaces after. &nbsp;<br>
           And the next line.<br><br>
-
           First line with the HTML tag after.&lt;br&gt;<br>
           And the next line.<br><br>
         </code>
@@ -70,7 +63,6 @@ There are two other options I don't recommend using. CommonMark and a few other 
         <code class="highlighter-rouge">
         First line with a backslash after.\<br>
         And the next line.<br><br>
-
         First line with nothing after.<br>
         And the next line.<br><br>
         </code>

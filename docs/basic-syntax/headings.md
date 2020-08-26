@@ -1,40 +1,5 @@
----
-title: Headings
-syntax-id: headings
-syntax-summary: |
-  # H1
-  ## H2
-  ### H3
-description: "To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`)."
-examples:
-  - markdown: "# Heading level 1"
-    html: "<h1>Heading level 1</h1>"
-  - markdown: "## Heading level 2"
-    html: "<h2>Heading level 2</h2>"
-  - markdown: "### Heading level 3"
-    html: "<h3>Heading level 3</h3>"
-  - markdown: "#### Heading level 4"
-    html: "<h4>Heading level 4</h4>"
-  - markdown: "##### Heading level 5"
-    html: "<h5>Heading level 5</h5>"
-  - markdown: "###### Heading level 6"
-    html: "<h6>Heading level 6</h6>"
-additional-examples:
-  - name: "Alternative H1 Syntax"
-    description: "Alternatively, on the line below the text, add any number of == characters for heading level 1."
-    markdown: |
-      Heading level 1
-      ===============
-    html: "<h1>Heading level 1</h1>"
-  - name: "Alternative H2 Syntax"
-    description: "Alternatively, on the line below the text, add any number of -- characters for heading level 2."
-    markdown: |
-      Heading level 2
-      ---------------
-    html: "<h2>Heading level 2</h2>"
----
-
-To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading level. For example, to create a heading level three (`<h3>`), use three number signs (e.g., `### My Header`).
+# Markdown 标题语法
+要创建标题，请在单词或短语前面添加井号 (`#`) 。`#` 的数量代表了标题的级别。例如，添加三个 `#` 表示创建一个三级标题 (`<h3>`) (例如：`### My Header`)。
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -78,9 +43,9 @@ To create a heading, add number signs (`#`) in front of a word or phrase. The nu
   </tbody>
 </table>
 
-### Alternate Syntax
+## 可选语法
+还可以在文本下方添加任意数量的 == 号来标识一级标题，或者 -- 号来标识二级标题。
 
-Alternatively, on the line below the text, add any number of `==` characters for heading level 1 or `--` characters for heading level 2.
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -104,9 +69,10 @@ Alternatively, on the line below the text, add any number of `==` characters for
   </tbody>
 </table>
 
-### Heading Best Practices
+## 最佳实践
 
-Markdown applications don't agree on how to handle a missing space between the number signs (`#`) and the heading name. For compatibility, always put a space between the number signs and the heading name.
+不同的 Markdown 应用程序处理 `#` 和标题之间的空格方式并不一致。为了兼容考虑，请用一个空格在 `#` 和标题之间进行分隔。
+
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -119,7 +85,7 @@ Markdown applications don't agree on how to handle a missing space between the n
     <tr>
       <td>
         <code class="highlighter-rouge">
-          # Here's a Heading<br><br>
+          # Here's a Heading
         </code>
       </td>
       <td>

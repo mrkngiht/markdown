@@ -1,13 +1,5 @@
 ---
 title: Paragraphs
-syntax-id: paragraphs
-description: "To create paragraphs, use a blank line to separate one or more lines of text. You should not indent paragraphs with spaces or tabs."
-examples:
-  - markdown: |
-      I really like using Markdown.
-
-      I think I'll use it to format all of my documents from now on.
-    html: "<p>I really like using Markdown.</p><p>I think I'll use it to format all of my documents from now on.</p>"
 ---
 
 To create paragraphs, use a blank line to separate one or more lines of text.
@@ -25,25 +17,22 @@ To create paragraphs, use a blank line to separate one or more lines of text.
       <td>
         <code class="highlighter-rouge">
           I really like using Markdown.<br /><br />
-
           I think I'll use it to format all of my documents from now on.
         </code>
       </td>
       <td>
         <code class="highlighter-rouge">&lt;p&gt;I really like using Markdown.&lt;/p&gt;<br /><br />
-
         &lt;p&gt;I think I'll use it to format all of my documents from now on.&lt;/p&gt;</code>
       </td>
       <td>
         <p>I really like using Markdown.</p>
-
         <p>I think I'll use it to format all of my documents from now on.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-### Paragraph Best Practices
+## Paragraph Best Practices
 
 Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
 
@@ -59,7 +48,6 @@ Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent par
       <td>
         <code class="highlighter-rouge">
           Don't put tabs or spaces in front of your paragraphs.<br><br>
-
           Keep lines left-aligned like this.<br><br>
         </code>
       </td>
@@ -67,7 +55,6 @@ Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent par
         <code class="highlighter-rouge">
         &nbsp;&nbsp;&nbsp;&nbsp;This can result in unexpected
         formatting problems.<br><br>
-
         &nbsp;&nbsp;Don't add tabs or spaces in front of paragraphs.
         </code>
       </td>
