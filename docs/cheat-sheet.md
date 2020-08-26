@@ -19,27 +19,27 @@ sidebar: auto
   </thead>
   <tbody>
     <tr>
-      <td><a href="/basic-syntax/#headings">标题（Heading）</a></td>
+      <td><a href="/basic-syntax/headings.html">标题（Heading）</a></td>
       <td>
-        <code># H1</code><br>
-        <code>## H2</code><br>
-        <code>### H3</code>
+        <code># H1<br>
+        ## H2<br>
+        ### H3</code>
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#bold">粗体（Bold）</a></td>
+      <td><a href="/basic-syntax/bold.html">粗体（Bold）</a></td>
       <td><code>**bold text**</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#italic">斜体（Italic）</a></td>
+      <td><a href="/basic-syntax/italic.html">斜体（Italic）</a></td>
       <td><code>*italicized text*</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#blockquotes-1">引用块（Blockquote）</a></td>
+      <td><a href="/basic-syntax/blockquotes.html">引用块（Blockquote）</a></td>
       <td><code>> blockquote</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#ordered-lists">有序列表（Ordered List）</a></td>
+      <td><a href="/basic-syntax/ordered-lists.html">有序列表（Ordered List）</a></td>
       <td>
         <code>1. First item</code><br>
         <code>2. Second item</code><br>
@@ -47,7 +47,7 @@ sidebar: auto
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#unordered-lists">无序列表（Unordered List）</a></td>
+      <td><a href="/basic-syntax/unordered-lists.html">无序列表（Unordered List）</a></td>
       <td>
         <code>
           - First item<br>
@@ -57,19 +57,19 @@ sidebar: auto
       </td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#code">代码（Code）</a></td>
+      <td><a href="/basic-syntax/code.html">代码（Code）</a></td>
       <td><code>`code`</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#horizontal-rules">分隔线（Horizontal Rule）</a></td>
+      <td><a href="/basic-syntax/horizontal-rules.html">分隔线（Horizontal Rule）</a></td>
       <td><code>---</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#links">链接（Link）</a></td>
+      <td><a href="/basic-syntax/links.html">链接（Link）</a></td>
       <td><code>[title](https://www.example.com)</code></td>
     </tr>
     <tr>
-      <td><a href="/basic-syntax/#images-1">图片（Image）</a></td>
+      <td><a href="/basic-syntax/images.html">图片（Image）</a></td>
       <td><code>![alt text](image.jpg)</code></td>
     </tr>
   </tbody>
@@ -89,16 +89,16 @@ sidebar: auto
   </thead>
   <tbody>
     <tr>
-      <td><a href="/extended-syntax/#tables">表格（Table）</a></td>
+      <td><a href="/extended-syntax/tables.html">表格（Table）</a></td>
       <td><code>
-          | Syntax      | Description |<br>
+          | Syntax&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Description |<br>
           | ----------- | ----------- |<br>
-          | Header      | Title       |<br>
-          | Paragraph   | Text        |
+          | Header&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Title&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+          | Paragraph&nbsp;&nbsp;&nbsp;| Text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#fenced-code-blocks">代码块（Fenced Code Block）</a></td>
+      <td><a href="/extended-syntax/fenced-code-blocks.html">代码块（Fenced Code Block）</a></td>
       <td><code>```<br>
       {<br>
       &nbsp;&nbsp;"firstName": "John",<br>
@@ -109,29 +109,29 @@ sidebar: auto
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#footnotes">脚注（Footnote）</a></td>
+      <td><a href="/extended-syntax/footnotes.html">脚注（Footnote）</a></td>
       <td>
         Here's a sentence with a footnote. <code>[^1]</code><br>
         <code>[^1]</code>: This is the footnote.
       </td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#heading-ids">标题编号（Heading ID）</a></td>
+      <td><a href="/extended-syntax/heading-ids.html">标题编号（Heading ID）</a></td>
       <td><code>### My Great Heading {#custom-id}</code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#definition-lists">定义列表（Definition List）</a></td>
+      <td><a href="/extended-syntax/definition-lists.html">定义列表（Definition List）</a></td>
       <td><code>
         term<br>
         : definition
       </code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#strikethrough">删除线（Strikethrough）</a></td>
+      <td><a href="/extended-syntax/strikethrough.html">删除线（Strikethrough）</a></td>
       <td><code>~~The world is flat.~~</code></td>
     </tr>
     <tr>
-      <td><a href="/extended-syntax/#task-lists">任务列表（Task List）</a></td>
+      <td><a href="/extended-syntax/task-lists.html">任务列表（Task List）</a></td>
       <td><code>
         - [x] Write the press release<br>
         - [ ] Update the website<br>
