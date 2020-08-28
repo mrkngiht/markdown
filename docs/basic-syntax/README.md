@@ -4,37 +4,29 @@ sidebarDepth: 3
 
 # Markdown 基本语法
 
-几乎所有 Markdown 应用程序都支持 John Gruber 原始设计文档中列出的 Markdown 基本语法。但是，Markdown 处理程序之间存在着细微的变化和差异，我们都会尽可能标记出来。让您十分钟快速掌握 Markdown 语法，让我们从 [Markdown 标题语法](https://markdown.com.cn/basic-syntax/headings.html)开始讲解。
-
-可先试试 [Markdown在线编辑器](https://markdown.com.cn/editor/)。
+几乎所有 Markdown 应用程序都支持 John Gruber 原始设计文档中列出的 Markdown 基本语法。但是，Markdown 处理程序之间存在着细微的变化和差异，我们都会尽可能标记出来。让您十分钟快速掌握 Markdown 语法，让我们从 [Markdown 标题语法](https://markdown.com.cn/basic-syntax/headings.html)开始讲解。体验一下 [Markdown在线编辑器](https://markdown.com.cn/editor/)。
 
 
-## 设计哲学
+## 设计理念
 
 Markdown 的目标是实现「易读易写」。
 
-不过最需要强调的便是它的可读性。一份使用 Markdown 格式撰写的文件应该可以直接以纯文字发佈，并且看起来不会像是由许多标签或是格式指令所构成。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 [Setext] [1]、[atx] [2]、[Textile] [3]、[reStructuredText] [4]、[Grutatext] [5] 和 [EtText] [6]，然而最大灵感来源其实是纯文字的电子邮件格式。
+不过最需要强调的便是它的可读性。Markdown 格式的文档应以纯文本形式原样发布，而不会看起来像被标签或格式说明所标记。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 [Setext](http://docutils.sourceforge.net/mirror/setext.html) 、[atx](http://www.aaronsw.com/2002/atx/)、[Textile](http://textism.com/tools/textile/)、[reStructuredText](http://docutils.sourceforge.net/rst.html)、[Grutatext](http://www.triptico.com/software/grutatxt.html) 和 [EtText](http://ettext.taint.org/doc/)，然而最大灵感来源其实是纯文字的电子邮件格式。
 
-  [1]: http://docutils.sourceforge.net/mirror/setext.html
-  [2]: http://www.aaronsw.com/2002/atx/
-  [3]: http://textism.com/tools/textile/
-  [4]: http://docutils.sourceforge.net/rst.html
-  [5]: http://www.triptico.com/software/grutatxt.html
-  [6]: http://ettext.taint.org/doc/
 
-因此 Markdown 的语法全由标点符号所组成，并经过严谨慎选，是为了让它们看起来就像所要表达的意思。像是在文字两旁加上星号，看起来就像\*强调\*。Markdown 的清单看起来，嗯，就是清单。假如你有使用过电子邮件，区块引言看起来就真的像是引用一段文字。
+因此 Markdown 的语法全由标点符号所组成，并经过严格筛选，是为了让它们看起来就像所要表达的意思。比如在文字两旁加上星号，看起来就像\*强调\*。Markdown 的列表看起来，嗯，就是列表。假如你有使用过电子邮件，区块引用看起来就真的像是引用一段文字。
 
-## 行内 HTML
+## 内联 HTML
 
-Markdown 的语法有个主要的目的：用来作为一种网路内容的*写作*用语言。
+Markdown 的语法只为一个目的：用来作为一种 web 内容的 *写作* 用语言。
 
-Markdown 不是要来取代 HTML，甚至也没有要和它相似，它的语法种类不多，只和 HTML 的一部分有关係，重点*不是*要创造一种更容易写作 HTML 文件的语法，我认为 HTML 已经很容易写了，Markdown 的重点在于，它能让文件更容易阅读、编写。HTML 是一种*发佈*的格式，Markdown 是一种*编写*的格式，因此，Markdown 的格式语法只涵盖纯文字可以涵盖的范围。
+Markdown 不是要来取代 HTML，甚至也没有要和它相似，它的语法集非常小，只对应一小部分 HTML 标签，它要做的 *不是* 创造一种新的语法以使插入 HTML 标签变得更容易，HTML 已经很容易写了，Markdown 的目标是易于阅读，创作和编辑文章。HTML 是一种 *发布* 的格式，Markdown 是一种 *编写* 的格式，因此，Markdown 的格式语法只涵盖纯文本可以涵盖的范围。
 
-不在 Markdown 涵盖范围之外的标签，都可以直接在文件裡面用 HTML 撰写。不需要额外标注这是 HTML 或是 Markdown；只要直接加标签就可以了。
+对于 Markdown 涵盖范围之外的标签，都可以直接在文件里面用 HTML 本身。不需要额外标注这是 HTML 或是 Markdown，只要直接加标签就可以了。
 
-只有区块元素──比如 `<div>`、`<table>`、`<pre>`、`<p>` 等标签，必须在前后加上空行，以利与内容区隔。而且这些（元素）的开始与结尾标签，不可以用 tab 或是空白来缩排。Markdown 的产生器有智慧型判断，可以避免在区块标签前后加上没有必要的 `<p>` 标签。
+只有区块元素──比如 `<div>`、`<table>`、`<pre>`、`<p>` 等标签，必须在前后加上空行，以便于内容区分。而且这些（元素）的开始与结尾标签，不可以用 tab 或是空白来缩进。Markdown 会自动识别这区块元素，避免在区块标签前后加上没有必要的 `<p>` 标签。
 
-举例来说，在 Markdown 文件裡加上一段 HTML 表格：
+例如，在 Markdown 文件里加上一段 HTML 表格：
 
     This is a regular paragraph.
 
@@ -48,15 +40,15 @@ Markdown 不是要来取代 HTML，甚至也没有要和它相似，它的语法
 
 请注意，Markdown 语法在 HTML 区块标签中将不会被进行处理。例如，你无法在 HTML 区块内使用 Markdown 形式的`*强调*`。
 
-HTML 的区段标签如 `<span>`、`<cite>`、`<del>` 则不受限制，可以在 Markdown 的段落、清单或是标题裡任意使用。依照个人习惯，甚至可以不用Markdown 格式，而採用 HTML 标签来格式化。举例说明：如果比较喜欢 HTML 的  `<a>` 或 `<img>` 标签，可以直接使用这些标签，而不用 Markdown 提供的连结或是影像标示语法。
+HTML 的內联标签如 `<span>`、`<cite>`、`<del>` 则不受限制，可以在 Markdown 的段落、列表或是标题里任意使用。依照个人习惯，甚至可以不用 Markdown 格式，而采用 HTML 标签来格式化。例如：如果比较喜欢 HTML 的  `<a>` 或 `<img>` 标签，可以直接使用这些标签，而不用 Markdown 提供的链接或是图片语法。
 
-HTML 区段标签和区块标签不同，在区段标签的范围内， Markdown 的语法是有效的。
+HTML 內联标签和区块标签不同，在內联标签的范围内， Markdown 的语法是可以解析的。
 
-## 特殊字元自动转换
+## 特殊字符自动转义
 
-在 HTML 文件中，有两个字元需要特殊处理： `<` 和 `&` 。 `<` 符号用于起始标签，`&` 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 `&lt;` 和 `&amp;`。
+在 HTML 文件中，有两个字符需要特殊处理： `<` 和 `&` 。 `<` 符号用于起始标签，`&` 符号则用于标记 HTML 实体，如果你只是想要使用这些符号，你必须要使用实体的形式，像是 `&lt;` 和 `&amp;`。
 
-`&` 符号其实很容易让写作网路文件的人感到困扰，如果你要打「AT&T」 ，你必须要写成「`AT&amp;T`」 ，还得转换网址内的 `&` 符号，如果你要连结到：
+`&` 符号其实很容易让写作网页文件的人感到困扰，如果你要打「AT&T」 ，你必须要写成「`AT&amp;T`」 ，还得转换网址内的 `&` 符号，如果你要链接到：
 
     http://images.google.com/images?num=30&q=larry+bird
 
@@ -64,9 +56,9 @@ HTML 区段标签和区块标签不同，在区段标签的范围内， Markdown
 
     http://images.google.com/images?num=30&amp;q=larry+bird
 
-才能放到连结标签的 `href` 属性裡。不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。
+才能放到链接标签的 `href` 属性里。不用说也知道这很容易忘记，这也可能是 HTML 标准检查所检查到的错误中，数量最多的。
 
-Markdown 允许你直接使用这些符号，但是你要小心跳脱字元的使用，如果你是在HTML 实体中使用 `&` 符号的话，它不会被转换，而在其它情形下，它则会被转换成 `&amp;`。所以你如果要在文件中插入一个著作权的符号，你可以这样写：
+Markdown 允许你直接使用这些符号，它帮你自动转义字符。如果你使用 `&` 符号的作为 HTML 实体的一部分，那么它不会被转换，而在其它情况下，它则会被转换成 `&amp;`。所以你如果要在文件中插入一个著作权的符号，你可以这样写：
 
     &copy;
 
@@ -78,7 +70,7 @@ Markdown 就会将它转为：
 
     AT&amp;T
 
-类似的状况也会发生在 `<` 符号上，因为 Markdown 支援 [行内 HTML](#html) ，如果你是使用 `<` 符号作为 HTML 标签使用，那 Markdown 也不会对它做任何转换，但是如果你是写：
+类似的状况也会发生在 `<` 符号上，因为 Markdown 支持 [行内 HTML](/basic-syntax/#内联-html) ，如果你使用 `<` 符号作为 HTML 标签的分隔符，那 Markdown 也不会对它做任何转换，但是如果你是写：
 
     4 < 5
 
@@ -86,5 +78,5 @@ Markdown 将会把它转换为：
 
     4 &lt; 5
 
-不过需要注意的是，code 范围内，不论是行内还是区块， `<` 和 `&` 两个符号都*一定*会被转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML code （和 HTML 相对而言， HTML 语法中，你要把所有的 `<` 和 `&` 都转换为 HTML 实体，才能在 HTML 文件裡面写出 HTML code。）
+需要特别注意的是，在 Markdown 的块级元素和内联元素中， `<` 和 `&` 两个符号都会被自动转换成 HTML 实体，这项特性让你可以很容易地用 Markdown 写 HTML。（在 HTML 语法中，你要手动把所有的 `<` 和 `&` 都转换为 HTML 实体。）
 
