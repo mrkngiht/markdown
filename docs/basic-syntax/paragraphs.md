@@ -1,8 +1,9 @@
 ---
-title: Paragraphs
+title: Markdown 段落语法
+description : Markdown 如何表示段落：一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。
 ---
-
-To create paragraphs, use a blank line to separate one or more lines of text.
+#  Markdown 段落
+要创建段落，请使用空白行将一行或多行文本进行分隔。
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -32,9 +33,9 @@ To create paragraphs, use a blank line to separate one or more lines of text.
   </tbody>
 </table>
 
-## Paragraph Best Practices
+## 段落（Paragraph）用法的最佳实
 
-Unless the [paragraph is in a list](/basic-syntax/#paragraphs), don't indent paragraphs with spaces or tabs.
+不要用空格（spaces）或制表符（ tabs）缩进段落。
 
 <table class="table table-bordered">
   <thead class="thead-light">

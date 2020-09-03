@@ -1,8 +1,9 @@
 ---
-title: Markdown换行
+title: Markdown 换行语法
+description: Markdown 换行语法：连续的字符串，如果你想要换行，往往打“Enter”是不管用的，正确的换行方法为在需要换行的地方插入2个空格」
 ---
 
-# Markdown换行
+# Markdown 换行语法
 
 在一行的末尾添加两个或多个空格，然后按回车键,即可创建一个换行(`<br>`)。
 
@@ -34,13 +35,13 @@ title: Markdown换行
   </tbody>
 </table>
 
-## Line Break Best Practices
+## 换行（Line Break）用法的最佳实践
 
-You can use two or more spaces (commonly referred to as "trailing whitespace") for line breaks in nearly every Markdown application, but it's controversial. It's hard to see trailing whitespace in an editor, and many people accidentally or intentionally put two spaces after every sentence. For this reason, you may want to use something other than trailing whitespace for line breaks. Fortunately, there is another option supported by nearly every Markdown application: the `<br>` HTML tag.
+几乎每个 Markdown 应用程序都支持两个或多个空格进行换行，称为 `结尾空格（trailing whitespace)` 的方式，但这是有争议的，因为很难在编辑器中直接看到空格，并且很多人在每个句子后面都会有意或无意地添加两个空格。由于这个原因，你可能要使用除结尾空格以外的其它方式来换行。幸运的是，几乎每个 Markdown 应用程序都支持另一种换行方式：HTML 的 `<br>` 标签。
 
-For compatibility, use trailing white space or the `<br>` HTML tag at the end of the line.
+为了兼容性，请在行尾添加“结尾空格”或 HTML 的 `<br>` 标签来实现换行。
 
-There are two other options I don't recommend using. CommonMark and a few other lightweight markup languages let you type a backslash (`\`) at the end of the line, but not all Markdown applications support this, so it isn't a great option from a compatibility perspective. And at least a couple lightweight markup languages don't require anything at the end of the line — just type return and they'll create a line break.
+还有两种其他方式我并不推荐使用。CommonMark 和其它几种轻量级标记语言支持在行尾添加反斜杠 (`\`) 的方式实现换行，但是并非所有 Markdown 应用程序都支持此种方式，因此从兼容性的角度来看，不推荐使用。并且至少有两种轻量级标记语言支持无须在行尾添加任何内容，只须键入回车键（`return`）即可实现换行。
 
 <table class="table table-bordered">
   <thead class="thead-light">
