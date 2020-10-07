@@ -4,12 +4,12 @@
 
 
 ```
-![so cool](/assets/img/philly-magic-gardens.jpg "Magic Gardens")
+![so cool](/assets/img/philly-magic-garden.jpg "Magic Gardens")
 ```
 
 渲染效果如下：
 
-![so cool](./philly-magic-gardens.jpg)
+![so cool](../images/philly-magic-garden.jpg "Magic Gardens")
 
 
 ### 链接图片
@@ -22,5 +22,5 @@
 
 渲染效果如下：
 
-[![An old rock in the desert](./shiprock.jpg)](https://markdown.com.cn)
+[![An old rock in the desert](../images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://markdown.com.cn)
 
