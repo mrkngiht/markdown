@@ -19,7 +19,7 @@ To bold text, add two asterisks or underscores before and after a word or phrase
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

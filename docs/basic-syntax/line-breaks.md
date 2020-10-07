@@ -12,7 +12,7 @@ description: Markdown 换行语法：连续的字符串，如果你想要换行�
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

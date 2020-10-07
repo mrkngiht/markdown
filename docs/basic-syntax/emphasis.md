@@ -15,7 +15,7 @@ description: '要加粗的文字左右分别用两个星号包起来，要倾斜
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -72,7 +72,7 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -132,7 +132,7 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

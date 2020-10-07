@@ -1,61 +1,43 @@
----
-title: Links
-syntax-id: links
-syntax-summary: "[link name](https://www.example.com)"
-description: "To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`). You can optionally add a title after the URL in the parentheses."
-examples:
-  - markdown: "My favorite search engine is [Duck Duck Go](https://duckduckgo.com \"The best search engine for privacy\")."
-    html: My favorite search engine is <a href=\"https://duckduckgo.com\" title=\"The best search engine for privacy\">Duck Duck Go</a>.
-additional-examples:
-  - name: "URLs and Email Addresses"
-    description: "To quickly turn a URL or email address into a link, enclose it in angle brackets."
-    markdown: "<https://www.markdownguide.org><fake@example.com>"
-    html: <a href=\"https://www.markdownguide.org\">https://www.markdownguide.org</a><a href=\"&#x6d;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;\">&#x66;&#x61;&#x6b;&#101;&#64;&#x65;&#120;&#x61;&#x6d;&#x70;&#108;&#101;&#46;&#99;&#x6f;&#109;</a>
-  - name: "Formatting Links"
-    description: "To emphasize links, add asterisks before and after the brackets and parentheses."
-    markdown: "I love supporting **[EFF](https://eff.org)**. This is the *[Markdown Guide](https://www.markdownguide.org)*."
-    html: I love supporting <strong><a href=\"https://eff.org\">EFF</a></strong>. This is the <em><a href=\"https://www.markdownguide.org\">Markdown Guide</a></em>.
----
-
-To create a link, enclose the link text in brackets (e.g., `[Duck Duck Go]`) and then follow it immediately with the URL in parentheses (e.g., `(https://duckduckgo.com)`).
+# Markdown 链接语法 
+链接的语法格式为 [link text](URL 'title text') 。链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
 
 ```
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
 
-### Adding Titles
+### 给链接增加 Title
 
-You can optionally add a title for a link. This will appear as a tooltip when the user hovers over the link. To add a title, enclose it in parentheses after the URL.
+当鼠标悬在链接上时会出现的文字，这个title文字是可选的，放在圆括号中链接地址后面，以空格分隔。
 
 ```
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
 
-### URLs and Email Addresses
+### 网址和Email地址
 
-To quickly turn a URL or email address into a link, enclose it in angle brackets.
+使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
 
 ```
 <https://www.markdownguide.org>
 <fake@example.com>
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 <https://www.markdownguide.org><br/>
 <fake@example.com>
 
-### Formatting Links
+### 格式化链接
 
-To [emphasize](#emphasis) links, add asterisks before and after the brackets and parentheses. To denote links as [code](#code), add backticks in the brackets.
+[强调](#emphasis) 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。
 
 ```
 I love supporting the **[EFF](https://eff.org)**.
@@ -63,36 +45,37 @@ This is the *[Markdown Guide](https://www.markdownguide.org)*.
 See the section on [`code`](#code).
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 I love supporting the **[EFF](https://eff.org)**.<br/>
 This is the *[Markdown Guide](https://www.markdownguide.org)*.<br/>
 See the section on [`code`](#code).
 
-### Reference-style Links
+### 引用类型链接
 
-Reference-style links are a special kind of link that make URLs easier to display and read in Markdown. Reference-style links are constructed in two parts: the part you keep inline with your text and the part you store somewhere else in the file to keep the text easy to read.
+引用样式链接是一种特殊的链接，它使URL在Markdown中更易于显示和阅读。参考样式链接分为两部分：与文本保持内联的部分以及存储在文件中其他位置的部分，以使文本易于阅读。
 
-#### Formatting the First Part of the Link
 
-The first part of a reference-style link is formatted with two sets of brackets. The first set of brackets surrounds the text that should appear linked. The second set of brackets displays a label used to point to the link you're storing elsewhere in your document.
+#### 链接的第一部分格式
 
-Although not required, you can include a space between the first and second set of brackets. The label in the second set of brackets is not case sensitive and can include letters, numbers, spaces, or punctuation.
+引用类型的链接的第一部分使用两组括号进行格式设置。第一组方括号包围应显示为链接的文本。第二组括号显示了一个标签，该标签用于指向您存储在文档其他位置的链接。
 
-This means the following example formats are roughly equivalent for the first part of the link:
+尽管不是必需的，可以在第一组和第二组括号之间包含一个空格。第二组括号中的标签不区分大小写，可以包含字母，数字，空格或标点符号。
+
+以下示例格式对于链接的第一部分效果相同：
 
 - `[hobbit-hole][1]`
 - `[hobbit-hole] [1]`
 
-#### Formatting the Second Part of the Link
+#### 链接的第二部分格式
 
-The second part of a reference-style link is formatted with the following attributes:
+引用类型链接的第二部分使用以下属性设置格式：
 
-1. The label, in brackets, followed immediately by a colon and at least one space (e.g., `[label]: `).
-2. The URL for the link, which you can optionally enclose in angle brackets.
-3. The optional title for the link, which you can enclose in double quotes, single quotes, or parentheses.
+1. 放在括号中的标签，其后紧跟一个冒号和至少一个空格（例如`[label]: `）。
+2. 链接的URL，可以选择将其括在尖括号中。
+3. 链接的可选标题，可以将其括在双引号，单引号或括号中。
 
-This means the following example formats are all roughly equivalent for the second part of the link:
+以下示例格式对于链接的第二部分效果相同：
 
 - `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle`
 - `[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"`
@@ -102,41 +85,14 @@ This means the following example formats are all roughly equivalent for the seco
 - `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> 'Hobbit lifestyles'`
 - `[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)`
 
-You can place this second part of the link anywhere in your Markdown document. Some people place them immediately after the paragraph in which they appear while other people place them at the end of the document (like endnotes or footnotes).
+可以将链接的第二部分放在Markdown文档中的任何位置。有些人将它们放在出现的段落之后，有些人则将它们放在文档的末尾（例如尾注或脚注）。
 
-#### An Example Putting the Parts Together
 
-Say you add a URL as a [standard URL link](#links) to a paragraph and it looks like this in Markdown:
+### 链接最佳实践
 
-```
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
-eat: it was a [hobbit-hole](https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"), and that means comfort.
-```
+不同的 Markdown 应用程序处理URL中间的空格方式不一样。为了兼容性，请尽量使用%20代替空格。
 
-Though it may point to interesting additional information, the URL as displayed really doesn't add much to the existing raw text other than making it harder to read. To fix that, you could format the URL like this instead:
 
-```
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends
-of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to
-eat: it was a [hobbit-hole][1], and that means comfort.
-
-[1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> "Hobbit lifestyles"
-```
-
-In both instances above, the rendered output would be identical:
-
-> In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to  eat: it was a <a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>, and that means comfort.
-
-and the HTML for the link would be:
-
-```
-<a href="https://en.wikipedia.org/wiki/Hobbit#Lifestyle" title="Hobbit lifestyles">hobbit-hole</a>
-```
-
-### Link Best Practices
-
-Markdown applications don't agree on how to handle spaces in the middle of a URL. For compatibility, try to URL encode any spaces with `%20`.
 
 <table class="table table-bordered">
   <thead class="thead-light">

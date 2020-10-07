@@ -1,51 +1,18 @@
----
-title: Blockquotes
-syntax-id: blockquotes
-syntax-summary: "> blockquote"
-description: "To create a blockquote, add a `>` in front of a paragraph."
-examples:
-  - markdown: "> Dorothy followed her through many of the beautiful rooms in  her castle."
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p></blockquote>"
-additional-examples:
-  - name: "Blockquotes with Multiple Paragraphs"
-    description: "Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs."
-    markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
-      >
-      > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote>"
-  - name: "Nested Blockquotes"
-    description: "Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest."
-    markdown: |
-      > Dorothy followed her through many of the beautiful rooms in her castle.
-      >
-      >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-    html: "<blockquote><p>Dorothy followed her through many of the beautiful rooms in her castle.</p><blockquote><p>The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.</p></blockquote></blockquote>"
-  - name: "Blockquotes with Other Elements"
-    description: "Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work."
-    markdown: |
-      > ### The quarterly results look great!
-      >
-      > - Revenue was off the chart.
-      > - Profits were higher than ever.
-      >
-      >  *Everything* is going according to **plan**.
-    html: "<blockquote><h3>The quarterly results look great!</h3><ul><li>Revenue was off the chart.</li><li>Profits were higher than ever.</li></ul><p><em>Everything</em> is going according to <strong>plan</strong>.</p></blockquote>"
----
+# Markdown 引用语法
 
-To create a blockquote, add a `>` in front of a paragraph.
+要创建块引用，请在段落前添加一个 `>` 符号。
 
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
 ```
 
-The rendered output looks like this:
+渲染效果如下所示：
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 
-### Blockquotes with Multiple Paragraphs
+### 多个段落的块引用
 
-Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines between the paragraphs.
+块引用可以包含多个段落。为段落之间的空白行添加一个 `>` 符号。
 
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
@@ -53,31 +20,30 @@ Blockquotes can contain multiple paragraphs. Add a `>` on the blank lines betwee
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-### Nested Blockquotes
+### 嵌套块引用
 
-Blockquotes can be nested. Add a `>>` in front of the paragraph you want to nest.
+块引用可以嵌套。在要嵌套的段落前添加一个 `>>` 符号。
 
 ```
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 ```
-
-The rendered output looks like this:
+渲染效果如下：
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
 
-### Blockquotes with Other Elements
+### 带有其它元素的块引用
 
-Blockquotes can contain other Markdown formatted elements. Not all elements can be used — you'll need to experiment to see which ones work.
+块引用可以包含其他 Markdown 格式的元素。并非所有元素都可以使用，你需要进行实验以查看哪些元素有效。
 
 ```
 > #### The quarterly results look great!
@@ -88,7 +54,7 @@ Blockquotes can contain other Markdown formatted elements. Not all elements can 
 >  *Everything* is going according to **plan**.
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 > <h4 class="no-anchor">The quarterly results look great!</h4>
 >

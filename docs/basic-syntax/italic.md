@@ -19,7 +19,7 @@ To italicize text, add one asterisk or underscore before and after a word or phr
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

@@ -1,22 +1,19 @@
----
-title: Escaping Characters
-syntax-id: escaping-characters
-api: "no"
----
+# Markdown 转义字符语法
+要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 (\) 。
 
-To display a literal character that would otherwise be used to format text in a Markdown document, add a backslash (`\`) in front of the character.
 
 ```
 \* Without the backslash, this would be a bullet in an unordered list.
 ```
 
-The rendered output looks like this:
+渲染效果如下：
+
 
 \* Without the backslash, this would be a bullet in an unordered list.
 
-### Characters You Can Escape
+### 可做转义的字符
 
-You can use a backslash to escape the following characters.
+以下列出的字符都可以通过使用反斜杠字符从而达到转义目的。
 
 <table class="table table-bordered">
   <thead class="thead-light">
@@ -76,7 +73,7 @@ You can use a backslash to escape the following characters.
     </tr>
     <tr>
       <td>|</td>
-      <td>pipe (see also <a href="/extended-syntax/#escaping-pipe-characters-in-tables">escaping pipe in tables</a>)</td>
+      <td>pipe (see also <a href="/extended-syntax/escaping-pipe-characters-in-tables.html">escaping pipe in tables</a>)</td>
     </tr>
   </tbody>
 </table>

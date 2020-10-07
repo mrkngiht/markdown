@@ -9,7 +9,7 @@ description : 要创建标题，请在单词或短语前面添加井号(`#`) 。
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -55,7 +55,7 @@ description : 要创建标题，请在单词或短语前面添加井号(`#`) 。
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

@@ -1,22 +1,17 @@
 ---
-sidebarDepth: 3
 ---
 
 # Markdown 基本语法
 
-几乎所有 Markdown 应用程序都支持 John Gruber 原始设计文档中列出的 Markdown 基本语法。但是，Markdown 处理程序之间存在着细微的变化和差异，我们都会尽可能标记出来。让您十分钟快速掌握 Markdown 语法，让我们从 [Markdown 标题语法](https://markdown.com.cn/basic-syntax/headings.html)开始讲解。体验一下 [Markdown在线编辑器](https://markdown.com.cn/editor/)。
+Markdown是一种轻量级标记语言，排版语法简洁，让人们更多地关注内容本身而非排版。它使用易读易写的纯文本格式编写文档，可与HTML混编，可导出 HTML、PDF 以及本身的 .md 格式的文件。因简洁、高效、易读、易写，Markdown被大量使用，如Github、Wikipedia等网站，如各大博客平台：WordPress、Drupal、简书等。
+
+在线体验一下 [Markdown在线编辑器](https://markdown.com.cn/editor/)。
+
+十分钟快速掌握 Markdown 语法，让我们从 [Markdown 标题语法](https://markdown.com.cn/basic-syntax/headings.html)开始讲解。
 
 
-## 设计理念
 
-Markdown 的目标是实现「易读易写」。
-
-不过最需要强调的便是它的可读性。Markdown 格式的文档应以纯文本形式原样发布，而不会看起来像被标签或格式说明所标记。Markdown 语法受到一些既有 text-to-HTML 格式的影响，包括 [Setext](http://docutils.sourceforge.net/mirror/setext.html) 、[atx](http://www.aaronsw.com/2002/atx/)、[Textile](http://textism.com/tools/textile/)、[reStructuredText](http://docutils.sourceforge.net/rst.html)、[Grutatext](http://www.triptico.com/software/grutatxt.html) 和 [EtText](http://ettext.taint.org/doc/)，然而最大灵感来源其实是纯文字的电子邮件格式。
-
-
-因此 Markdown 的语法全由标点符号所组成，并经过严格筛选，是为了让它们看起来就像所要表达的意思。比如在文字两旁加上星号，看起来就像\*强调\*。Markdown 的列表看起来，嗯，就是列表。假如你有使用过电子邮件，区块引用看起来就真的像是引用一段文字。
-
-## 内联 HTML
+## 内嵌 HTML
 
 Markdown 的语法只为一个目的：用来作为一种 web 内容的 *写作* 用语言。
 

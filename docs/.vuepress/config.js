@@ -4,7 +4,7 @@ module.exports = {
 locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Markdown 官方教程',
+      title: 'Markdown 语法教程',
     },
   },
   head: [
@@ -14,12 +14,12 @@ locales: {
   ],
 
   themeConfig: {
-    sidebarDepth: 2,
+    sidebarDepth: 0,
     repo: '',
     editLinks: false,
     docsDir: 'docs',
     editLinkText: '',
-    lastUpdated: true,
+    lastUpdated: false,
     nav: [
       {
         text: '入门',
@@ -83,7 +83,7 @@ function getSidebarGuide () {
 		'links',
 		'images',
 		'escaping-characters',
-		'html',
+		'htmls',
       ]
     }
   ]

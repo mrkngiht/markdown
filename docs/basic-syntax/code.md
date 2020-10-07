@@ -1,34 +1,12 @@
----
-title: Code
-syntax-id: code
-syntax-summary: "`code`"
-description: "To denote a word or phrase as code, enclose it in backticks (`` ` ``)."
-examples:
-  - markdown: "At the command prompt, type `nano`."
-    html: "At the command prompt, type <code>nano</code>."
-additional-examples:
-  - name: "Escaping Backticks"
-    description: "If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>)."
-    markdown: "``Use `code` in your Markdown file.``"
-    html: <code>Use `code` in your Markdown file.</code>
-  - name: "Code Blocks"
-    description: "To create code blocks, indent every line of the block by at least four spaces or one tab."
-    markdown: |
-        <html>
-          <head>
-          </head>
-        </html>
-    html: <pre><code><html><head></head></html></code></pre>
----
-
-To denote a word or phrase as code, enclose it in backticks (`` ` ``).
+# Markdown 代码语法
+要将单词或短语表示为代码，请将其包裹在反引号 (`` ` ``) 中。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -40,16 +18,15 @@ To denote a word or phrase as code, enclose it in backticks (`` ` ``).
   </tbody>
 </table>
 
-### Escaping Backticks
-
-If the word or phrase you want to denote as code includes one or more backticks, you can escape it by enclosing the word or phrase in double backticks (<code>``</code>).
+### 转义反引号
+如果你要表示为代码的单词或短语中包含一个或多个反引号，则可以通过将单词或短语包裹在双反引号(<code>``</code>)中。
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -61,9 +38,9 @@ If the word or phrase you want to denote as code includes one or more backticks,
   </tbody>
 </table>
 
-### Code Blocks
+### 代码块
 
-To create code blocks, indent every line of the block by at least four spaces or one tab.
+要创建代码块，请将代码块的每一行缩进至少四个空格或一个制表符。
 
 ```text
     <html>
@@ -72,7 +49,7 @@ To create code blocks, indent every line of the block by at least four spaces or
     </html>
 ```
 
-The rendered output looks like this:
+渲染效果如下：
 
 ```text
 <html>
@@ -82,5 +59,5 @@ The rendered output looks like this:
 ```
 
 <div class="alert alert-info">
-  <i class="fas fa-info-circle"></i> <strong>Note:</strong> To create code blocks without indenting lines, use <a href="/extended-syntax/#fenced-code-blocks">fenced code blocks</a>.
+  <i class="fas fa-info-circle"></i> <strong>Note:</strong> 要创建不用缩进的代码块，请使用 <a href="/extended-syntax/fenced-code-blocks.html">围栏式代码块（fenced code blocks）</a>.
 </div>

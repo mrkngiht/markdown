@@ -10,7 +10,7 @@ description : Markdown 如何表示段落：一个 Markdown 段落是由一个�
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>

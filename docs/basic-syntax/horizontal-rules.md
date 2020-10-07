@@ -1,10 +1,8 @@
----
-title: Horizontal Rules
-description: "To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves."
+# Markdown 分隔线语法
 
----
+要创建分隔线，请在单独一行上使用三个或多个星号 (`***`)、破折号 (`---`) 或下划线 (`___`) ，并且不能包含其他内容。
 
-To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`), or underscores (`___`) on a line by themselves.
+
 
 ```
 ***
@@ -14,13 +12,14 @@ To create a horizontal rule, use three or more asterisks (`***`), dashes (`---`)
 _________________
 ```
 
-The rendered output of all three looks identical:
+以上三个分隔线的渲染效果看起来都一样：
+
 
 ---
 
-### Horizontal Rule Best Practices
+### 分隔线（Horizontal Rule）用法最佳实践
 
-For compatibility, put blank lines before and after horizontal rules.
+为了兼容性，请在分隔线的前后均添加空白行。
 
 <table class="table table-bordered">
   <thead class="thead-light">
