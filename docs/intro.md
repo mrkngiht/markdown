@@ -5,9 +5,14 @@ description: 了解 Markdown 的必备知识。介绍 Markdown 的历史，Markd
 ---
 ## Markdown 是什么？
 
-Markdown 是一种轻量级的标记语言，允许人们使用易读易写的纯文本格式编写文档。Markdown 由 [John Gruber](https://daringfireball.net/projects/markdown/) 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。
+Markdown 是一种轻量级的标记语言，可用于在纯文本文档中添加格式化元素。Markdown 由 John Gruber 于 2004 年创建，如今已成为世界上最受欢迎的标记语言之一。
 
-使用 Markdown 与使用 Word 类编辑器不同。在 Microsoft Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。
+1. 专注于文字内容；
+2. 纯文本，易读易写，可以方便地纳入版本控制；
+3. 语法简单，没有什么学习成本，能轻松在码字的同时做出美观大方的排版。
+
+
+使用 Markdown 与使用 Word 类编辑器不同。在 Word 之类的应用程序中，单击按钮以设置单词和短语的格式，并且，更改立即可见。而 Markdown 与此不同，当你创建 Markdown 格式的文件时，可以在文本中添加 Markdown 语法，以指示哪些单词和短语看起来应该有所不同。
 
 例如，要表示标题，只须在短语前面添加一个井号即可（例如， `# Heading One`）。或者要加粗一个短语，只须在短语前后各加两个星号即可（例如，`**this text is bold**`）。可能需要一段时间才能习惯在文本中看到 Markdown 语法，尤其是如果你已习惯了所见即所得的应用程序。以下屏幕截展示了 Markdown 文件在 [Atom 文本编辑器](https://atom.io) 中显示的效果。
 
@@ -21,35 +26,32 @@ Markdown 是一种轻量级的标记语言，允许人们使用易读易写的�
 
 ## 为什么要使用 Markdown？
 
-你可能想知道为什么人们使用 Markdown 而不是所用即所得（WYSIWYG）编辑器。当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？事实证明，人们使用 Markdown 而不是 WYSIWYG 编辑器的原因有两个：
+当你可以通过按下界面中的按钮来设置文本格式时，为什么还要使用 Markdown 来书写呢？使用 Markdown 而不是 word 类编辑器的原因有：
 
-* Markdown 处处可用。人们使用它来创建 [网站](#websites)、[文档](#documents)、[便签](#notes)、[书籍](#books)、[演示文稿](#presentations)、[邮件](#email) 和 [技术文档](#documentation)。
+* Markdown 无处不在。StackOverflow、CSDN、掘金、简书、GitBook、有道云笔记、V2EX、光谷社区等。主流的代码托管平台，如 GitHub、GitLab、BitBucket、Coding、Gitee 等等，都支持 Markdown 语法，很多开源项目的 README、开发文档、帮助文档、Wiki 等都用 Markdown 写作。
 
-* Markdown 是可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。
+* Markdown 是纯文本可移植的。几乎可以使用任何应用程序打开包含 Markdown 格式的文本文件。如果你不喜欢当前使用的 Markdown 应用程序了，则可以将 Markdown 文件导入另一个 Markdown 应用程序中。这与 Microsoft Word 等文字处理应用程序形成了鲜明的对比，Microsoft Word 将你的内容锁定在专有文件格式中。
 
 * Markdown 是独立于平台的。你可以在运行任何操作系统的任何设备上创建 Markdown 格式的文本。
 
 * Markdown 能适应未来的变化。即使你正在使用的应用程序将来会在某个时候不能使用了，你仍然可以使用文本编辑器读取 Markdown 格式的文本。当涉及需要无限期保存的书籍、大学论文和其他里程碑式的文件时，这是一个重要的考虑因素。
 
-* Markdown 无处不在。例如 [Reddit](/tools/reddit/) 和 GitHub 等网站都支持 Markdown，许多桌面和基于 Web 的应用程序也都支持 Markdown。
 
 ## 工欲善其事，必先利其器
 
-Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，这比以前任何时候都更容易开始上手了。
+Markdown 入门的最佳方式就是多使用它。由于有大量免费工具的存在，上手 Markdown 是很方便的。比较遗憾的一点是各平台可能采用不同语言实现的 Markdown 解析引擎，或采用同一解析引擎的不同版本，而且可能有不同程度的定制与扩展，这导致在不同平台上使用 Markdown 写作时体验并不完全一致。不过幸好对于大家公认的一些标准语法，各家都是支持的。
 
-你甚至都不需要下载任何程序，就可以使用几种在线的 Markdown 编辑器来编写 Markdown。[Dillinger](https://dillinger.io/) 是最好的在线 Markdown 编辑器之一。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。
+你甚至都不需要下载任何程序，就可以使用[在线 Markdown 编辑器](https://markdown.com.cn/editor/) 来编写 Markdown。进入其站点就可以开始在左侧窗格中书写了。渲染后的文档在右侧窗格预览。
 
-![Dillinger Markdown editor](./dillinger.png)
 
-阅读本指南时，你可以打开 Dillinger 网站。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，你可以在台式计算机或移动设备上安装支持 Markdown 的应用程序。
+阅读本指南时，你可以打开 [在线 Markdown 编辑器](https://markdown.com.cn/editor/) 。这样，你就可以一边学习 Markdown 语法一边练习了。熟悉 Markdown 之后，再选择一个顺手的 Markdown 的应用程序。
 
 ## Markdown 的工作原理
 
-Dillinger 让 Markdown 的编写变得容易，因为它隐藏了幕后发生的事情，但是该过程的总体工作方式是值得探索的。
 
 在使用 Markdown 格式书写时，文本内容存储在带有 `.md` 或 `.markdown` 扩展名的纯文本文件中。那然后呢？你的 Markdown 格式的文件如何转换为 HTML 或可打印的文档呢？
 
-简单来说，你需要一个能够处理 Markdown 文件的 _Markdown 应用程序_。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序，应有尽有。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 Dillinger 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。
+简单来说，你需要一个能够处理 Markdown 文件的 _Markdown 应用程序_。有许多应用程序可供选择，从简单的脚本到类似于 Microsoft Word 的桌面应用程序。尽管它们在视觉上有所不同，但所有应用程序都执行相同的操作。像 [在线 Markdown 编辑器](https://markdown.com.cn/editor/) 一样，它们都是将 Markdown 格式的文本转换为 HTML，以便可以在 Web 浏览器中显示。
 
 Markdown 应用程序使用一种称为 _Markdown 处理器_（也通常称为“解析器”或“实现”）的东西将获取到的 Markdown 格式的文本输出为 HTML 格式。此时，可以在 Web 浏览器中查看你的文档，或者将其与样式表组合并打印。你可以在下图看到此过程的直观表示。
 
@@ -64,7 +66,7 @@ Markdown 应用程序使用一种称为 _Markdown 处理器_（也通常称为�
 3.  使用 Markdown 应用程序将 Markdown 文件转换为 HTML 文档。
 4.  在 web 浏览器中查看 HTML 文件，或使用 Markdown 应用程序将其转换为其他文件格式，例如 PDF。
 
-从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，Dillinger 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。
+从你的角度来看，该过程将根据你使用的应用程序的不同而有所不同。例如，[在线 Markdown 编辑器](https://markdown.com.cn/editor/) 本质上将第 1-3 步组合到一个单一、无缝的界面中，你要做的就是在左窗格中键入内容，然后转换结果就在右窗格中就神奇地出现了。但是，如果你使用的是其他工具（例如带有静态网站生成器的文本编辑器），则会发现该过程更为明显。
 
 ## Markdown 有什么用？
 
@@ -78,13 +80,11 @@ Markdown 是做笔记、为网站创建内容以及生成可打印文档的快�
 
 Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。
 
-如果你您正在寻找利用 Markdown 文件创建网站的最简单方法，请参考 [blot.im](https://blot.im) 和 [smallvictori.es](https://smallvictori.es) 两个站点。在你注册某个服务之后，它们将在你的计算机上创建一个 Dropbox 文件夹。你只需将 Markdown 文件拖放到该文件夹​​中，然后嗖的一声，这些文件就在你的网站上了。再简单不过了。
 
-如果您熟悉 HTML、CSS和版本管理工具，请试试 [Jekyll](/tools/jekyll/)，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 [GitHub Pages](/tools/github-pages/) 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选，你可以在 [其它大量可用的静态站点生成器](https://www.staticgen.com/) 中选择一个。
+如果您熟悉 HTML、CSS和版本管理工具，请试试 [Jekyll](/tools/jekyll/)，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 [GitHub Pages](/tools/github-pages/) 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选。
 
-**注意：** 此 _Markdown 指南_ 就是用 Jekyll 创建的。你可以在 [GitHub](https://github.com/mattcone/markdown-guide) 上查看其源码。
 
-如果你想使用内容管理系统（CMS）来支撑你的网站，请试试 [Ghost](/tools/ghost/)。这是一个免费的开源博客平台，具有出色的 Markdown 编辑器。如果你是 WordPress 用户，你将很高兴地知道 WordPress.com 上托管的网站都 [支持 Markdown](https://en.support.wordpress.com/markdown/)。自托管的 WordPress 网站可以使用 [Jetpack 插件](https://jetpack.com/support/markdown/)实现对 Markdown 的支持。
+如果你是 WordPress 博主，你可以使用 [Jetpack 插件](https://jetpack.com/support/markdown/)实现对 Markdown 的支持。
 
 ### 文件资料
 
@@ -92,13 +92,19 @@ Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功�
 
 这是我推荐的一些Markdown文档创作工具：
 
-* **Mac:** [MacDown](/tools/macdown/)、[iA Writer](/tools/ia-writer/) 或 [Marked](https://marked2app.com/)
-* **iOS / Android:** [iA Writer](/tools/ia-writer/)
-* **Windows:** [ghostwriter](https://wereturtle.github.io/ghostwriter/) 或 [Markdown Monster](https://markdownmonster.west-wind.com/)
-* **Linux:** [ReText](https://github.com/retext-project/retext) 或 [ghostwriter](https://wereturtle.github.io/ghostwriter/)
-* **Web:** [Dillinger](/tools/dillinger/) 或 [StackEdit](/tools/stackedit/)
+* 现代编辑器  
+	VSCode / Atom
+* 传统编辑器  
+	Vim / Emacs / Sublime Text / Notepad++
 
-**提示：** [iA Writer](https://ia.net/writer/templates/) 提供了模板用于预览、打印和导出 Markdown 格式的文档。例如，“ Academic – MLA 样式”的模板会缩进段落并添加双句间距。
+* IDE 自带编辑器  
+	IntelliJ IDEA / Android Studio / WebStorm
+
+* 专用编辑器  
+	Ulysses / Mou / Typora / Markpad
+
+* 在线编辑器  
+	各种支持 Markdown 的网站都提供了[在线 Markdown 编辑器](https://markdown.com.cn/editor/)
 
 ### 笔记
 
@@ -137,11 +143,11 @@ Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转
 
 使用 Markdown 的过程中，最令人困惑的地方是：实际上每个 Markdown 应用程序都实现了稍有不同的 Markdown 语法。Markdown 的这些变体通常被称为 _flavors（方言）_。掌握你的应用程序所实现的 Markdown 语法是你需要主义的。
 
-为了让你了解各 Markdown 变体的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。[Dillinger](/tools/dillinger/) 支持的 Markdown 格式与 [Ulysses](/tools/ulysses/) 有着很大的不同。
+为了让你了解各 Markdown 变体的概念，将它们比作语言的方言（language dialects）可能会有所帮助。华雷斯城（Ciudad Juárez）的人说西班牙语，就像巴塞罗那（Barcelona）人一样，但是两个城市使用的方言之间有很大的不同。使用不同 Markdown 应用程序的人也是如此。Dillinger 支持的 Markdown 格式与 Ulysses 有着很大的不同。
 
 实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持 [基本语法](/basic-syntax/)？还是所有基本语法加 [扩展语法](/extended-syntax/) ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知到。
 
-如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 [Markdown 工具列表](/tools/) 中找到合适的应用程序。
+如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 [Markdown 工具列表](/tools.html/) 中找到合适的应用程序。
 
 ## 其它资源
 
@@ -152,17 +158,4 @@ Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转
 * [Awesome Markdown](https://github.com/mundimark/awesome-markdown). Markdown 工具和学习资源列表。
 * [Typesetting Markdown](https://dave.autonoma.ca/blog/2019/05/22/typesetting-markdown-part-1). 这是一个系列教程，介绍了使用 [pandoc](https://pandoc.org/) 和 [ConTeXt](https://www.contextgarden.net/) 对 Markdown 文档进行排版的系统。
 
-* [Markdown 是什么？](#markdown-是什么)
-* [为什么要使用 Markdown？](#为什么要使用-markdown)
-* [工欲善其事，必先利其器](#工欲善其事必先利其器)
-* [Markdown 的工作原理](#markdown-的工作原理)
-* [Markdown 有什么用？](#markdown-有什么用)
-  * [网站](#网站)
-  * [文件资料](#文件资料)
-  * [笔记](#笔记)
-  * [书籍](#书籍)
-  * [演示文稿](#演示文稿)
-  * [邮件](#邮件)
-  * [文档](#文档)
-* [Markdown 方言](#markdown-方言)
-* [其它资源](#其它资源)
+

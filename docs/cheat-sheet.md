@@ -4,7 +4,7 @@ sidebar: auto
 ---
 ## 总览
 
-此 Markdown 速查表提供了所有 Markdown 语法元素的快速参考。但是此速查表无法覆盖所有用法，因此，如果你需要某些语法元素的更多信息，请参阅我们的 [基本语法](/basic-syntax) 和 [扩展语法](/extended-syntax).
+Markdown 速查表提供了所有 Markdown 语法元素的基本解释。如果你想了解某些语法元素的更多信息，请参阅更详细的 [基本语法](/basic-syntax) 和 [扩展语法](/extended-syntax).
 
 ## 基本语法
 
