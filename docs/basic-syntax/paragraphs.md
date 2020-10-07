@@ -8,7 +8,7 @@ description : Markdown 如何表示段落：一个 Markdown 段落是由一个�
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>

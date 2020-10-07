@@ -4,7 +4,7 @@
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>
@@ -24,7 +24,7 @@
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>

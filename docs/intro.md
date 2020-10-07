@@ -81,7 +81,7 @@ Markdown 是做笔记、为网站创建内容以及生成可打印文档的快�
 Markdown 是为 web 而设计的，因此，市面上有很多专门用于创建网站内容的应用程序就不足为奇了。
 
 
-如果您熟悉 HTML、CSS和版本管理工具，请试试 [Jekyll](/tools/jekyll/)，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 [GitHub Pages](/tools/github-pages/) 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选。
+如果您熟悉 HTML、CSS和版本管理工具，请试试 [Jekyll]，这是一个广受欢迎的静态网站生成器，它能将 Markdown 文件并构建为 HTML 网站。这种方法的优势之一是 [GitHub Pages] 为 Jekyll 生成的网站提供免费托管服务。如果 Jekyll 不是你的理想之选。
 
 
 如果你是 WordPress 博主，你可以使用 [Jetpack 插件](https://jetpack.com/support/markdown/)实现对 Markdown 的支持。
@@ -110,12 +110,12 @@ Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功�
 
 在几乎所有方面，Markdown 都是记笔记的理想语法。不幸的是，两个最受欢迎的笔记应用程序 [Evernote](https://evernote.com/) 和 [OneNote](https://www.onenote.com/) 目前都不支持 Markdown。好消息是，其他一些笔记应用程序 _是_ 支持 Markdown 的：
 
-* [Simplenote](/tools/simplenote/) 是适用于所有平台的免费、简单的笔记应用程序。
-* [Notable](/tools/notable/) 是可以在各种平台上运行的笔记应用程序。
-* [Bear](/tools/bear/) 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。
-* [Boostnote](/tools/boostnote/) 自称是“专为程序员设计的开源笔记应用程序”。
+* [Simplenote] 是适用于所有平台的免费、简单的笔记应用程序。
+* [Notable] 是可以在各种平台上运行的笔记应用程序。
+* [Bear] 是适用于 Mac 和 iOS 设备的类似 Evernote 的应用程序。默认情况下，它并不专门针对 Markdown 的，但是你可以启用 Markdown 兼容模式。
+* [Boostnote] 自称是“专为程序员设计的开源笔记应用程序”。
 
-如果你无法放弃 Evernote，可以试试 [Marxico](https://marxi.co/)，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 [Markdown Here](/tools/markdown-here/) 插件。
+如果你无法放弃 Evernote，可以试试 [Marxico](https://marxi.co/)，一个专门针对 Evernote 的基于订阅付费的 Markdown编辑器，或在 Evernote 网站上使用 [Markdown Here] 插件。
 
 ### 书籍
 
@@ -127,17 +127,17 @@ Markdown 并不具备像 Microsoft Word 这样的文字处理程序的所有功�
 
 ### 邮件
 
-如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：[Markdown Here](/tools/markdown-here/) 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。
+如果你需要发送大量电子邮件，并且对大多数电子邮件提供商网站上可用的格式设置控件感到厌倦，那么你将很高兴地发现有一种使用 Markdown 编写电子邮件的简便方法：[Markdown Here] 是一个免费、开源的浏览器扩展程序，可将 Markdown 格式的文本转换为可用于发送的 HTML。
 
 ### 文档
 
-Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 [博文](https://github.com/blog/1939-how-github-uses-github-to-document-github) 以了解如何将 Markdown 格式的文档迁移到 [Jekyll](/tools/jekyll/)。如果你是为产品或服务编写文档，请试试以下的便捷工具：
+Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转向使用 Markdown 来创建其文档了，请查看此 [博文](https://github.com/blog/1939-how-github-uses-github-to-document-github) 以了解如何将 Markdown 格式的文档迁移到 [Jekyll]。如果你是为产品或服务编写文档，请试试以下的便捷工具：
 
 * [Read the Docs](https://readthedocs.org) 可以将你所开源的 Markdown 文件生成文档网站。只需将你的 GitHub 仓库连接到他们的服务，然后你就可以将内容推送到该仓库中，Read the Docs 会完成其余的工作。他们还为 [商业实体提供服务](https://readthedocs.com/)。
-* [MkDocs](/tools/mkdocs/) 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 [内置主题](https://www.mkdocs.org/user-guide/styling-your-docs/)，包括移植自 [Read the Docs](https://readthedocs.org/) 的文档主题。最新的一个主题是 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)。
-* [Docusaurus](/tools/docusaurus/) 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。
+* [MkDocs] 是一个快速、简单的静态站点生成器，专门用于构建项目文档。文档源文件使用 Markdown 编写，并使用一个 YAML 配置文件进行配置。MkDocs 有多个 [内置主题](https://www.mkdocs.org/user-guide/styling-your-docs/)，包括移植自 [Read the Docs](https://readthedocs.org/) 的文档主题。最新的一个主题是 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)。
+* [Docusaurus] 是一个静态网站生成器，专门用于创建文档网站。它支持翻译、搜索和版本控制。
 * [VuePress](https://vuepress.vuejs.org/) 是基于 [Vue](https://vuejs.org/) 构建的静态站点生成器，并针对编写技术文档进行了优化。
-* [Jekyll](/tools/jekyll/) 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 [Jekyll 文档主题](https://idratherbewriting.com/documentation-theme-jekyll/)。
+* [Jekyll] 前面已经提到过它了，但它也是将 Markdown 文件生成文档网站的一个不错的选择。如果你选择 Jekyll，请务必试试 [Jekyll 文档主题](https://idratherbewriting.com/documentation-theme-jekyll/)。
 
 ## Markdown 方言
 
@@ -147,7 +147,7 @@ Markdown 非常适合技术文档。像 GitHub 这样的公司越来越多地转
 
 实际上，这意味着当一个应用程序说它支持 “Markdown” 时，你永远也不会确切地知到它的实际意思。它说的是仅支持 [基本语法](/basic-syntax/)？还是所有基本语法加 [扩展语法](/extended-syntax/) ？或者是某些语法的组合呢？在你阅读其文档或开始使用该应用程序之前，你永远都不会知到。
 
-如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 [Markdown 工具列表](/tools.html/) 中找到合适的应用程序。
+如果你只是新手，我能给你的最好建议就是选择一个具有良好 Markdown 支持的应用程序。这对保持 Markdown 文件的可移植性大有帮助。你可能需要在其它应用程序中保存或使用你的 Markdown 文件，要实现这一点，你应当从使用一个具有良好 Markdown 支持的应用程序开始。你可以在 [Markdown 工具列表](/tools.html) 中找到合适的应用程序。
 
 ## 其它资源
 

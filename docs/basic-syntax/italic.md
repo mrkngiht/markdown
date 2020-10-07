@@ -17,7 +17,7 @@ To italicize text, add one asterisk or underscore before and after a word or phr
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>

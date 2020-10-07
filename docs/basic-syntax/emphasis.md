@@ -13,7 +13,7 @@ description: '要加粗的文字左右分别用两个星号包起来，要倾斜
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>
@@ -70,7 +70,7 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>
@@ -130,7 +130,7 @@ Markdown 应用程序在如何处理单词或短语中间的下划线上并不�
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
+      <th>Markdown语法</th>
       <th>HTML</th>
       <th>预览效果</th>
     </tr>

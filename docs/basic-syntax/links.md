@@ -1,41 +1,45 @@
 # Markdown 链接语法 
-链接的语法格式为 [link text](URL 'title text') 。链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
+链接文本放在中括号内，链接地址放在后面的括号中，链接title可选。
+
+超链接Markdown语法代码：`[超链接显示名](超链接地址 "超链接title")`
+
+对应的HTML代码：`<a href="超链接地址" title="超链接title">超链接显示名</a>`
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+这是一个链接 [Markdown语法](https://markdown.com.cn)。
 ```
 
 渲染效果如下：
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+这是一个链接 [Markdown语法](https://markdown.com.cn)。
 
 ### 给链接增加 Title
 
-当鼠标悬在链接上时会出现的文字，这个title文字是可选的，放在圆括号中链接地址后面，以空格分隔。
+链接title是当鼠标悬停在链接上时会出现的文字，这个title是可选的，它放在圆括号中链接地址后面，跟链接地址之间以空格分隔。
 
 ```
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。
 ```
 
 渲染效果如下：
 
-My favorite search engine is [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy").
+这是一个链接 [Markdown语法](https://markdown.com.cn "最好的markdown教程")。
 
 ### 网址和Email地址
 
 使用尖括号可以很方便地把URL或者email地址变成可点击的链接。
 
 ```
-<https://www.markdownguide.org>
+<https://markdown.com.cn>
 <fake@example.com>
 ```
 
 渲染效果如下：
 
-<https://www.markdownguide.org><br/>
+<https://markdown.com.cn><br/>
 <fake@example.com>
 
-### 格式化链接
+### 带格式化的链接
 
 [强调](#emphasis) 链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。
 
