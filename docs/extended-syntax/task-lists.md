@@ -1,13 +1,6 @@
----
-title: Task Lists
-syntax-id: task-lists
-syntax-summary: |
-  - [x] Write the press release
-  - [ ] Update the website
-  - [ ] Contact the media
----
+# Markdown 任务列表语法
 
-Task lists allow you to create a list of items with checkboxes. In Markdown applications that support task lists, checkboxes will be displayed next to the content. To create a task list, add dashes (`-`) and brackets with a space (`[ ]`) in front of task list items. To select a checkbox, add an `x` in between the brackets (`[x]`).
+任务列表使您可以创建带有复选框的项目列表。在支持任务列表的Markdown应用程序中，复选框将显示在内容旁边。要创建任务列表，请在任务列表项之前添加破折号（`-`）和方括号，并`[ ]`在其前面加上空格。要选择一个复选框，请x在方括号（`[x]`）之间添加in 。
 
 ```
 - [x] Write the press release
@@ -15,6 +8,6 @@ Task lists allow you to create a list of items with checkboxes. In Markdown appl
 - [ ] Contact the media
 ```
 
-The rendered output looks like this:
+呈现的输出如下所示：
 
-<img src="/assets/images/tasklist.png" class="img-fluid" alt="Markdown task list">
+![Markdown 任务列表](../images/tasklist.png)

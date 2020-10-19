@@ -1,13 +1,9 @@
----
-title: Availability
-syntax-id: availability
----
+# Markdown 扩展语法可用性
 
-Not all Markdown applications support extended syntax elements. You'll need to check whether or not the lightweight markup language your application is using supports the extended syntax elements you want to use. If it doesn't, it may still be possible to enable extensions in your Markdown processor.
+并非所有Markdown应用程序都支持扩展语法元素。您需要检查您的应用程序所使用的轻量级标记语言是否支持您要使用的扩展语法元素。如果没有，那么仍然有可能在Markdown处理器中启用扩展。
 
-### Lightweight Markup Languages
-
-There are several lightweight markup languages that are *supersets* of Markdown. They include Gruber's basic syntax and build upon it by adding additional elements like tables, code blocks, syntax highlighting, URL auto-linking, and footnotes. Many of the most popular Markdown applications use one of the following lightweight markup languages:
+## 轻量标记语言
+有几种轻量级标记语言是Markdown的超集。它们包含Gruber的基本语法，并通过添加其他元素（例如表，代码块，语法突出显示，URL自动链接和脚注）在此基础上构建。许多最受欢迎的Markdown应用程序使用以下轻量级标记语言之一：
 
 - [CommonMark](https://commonmark.org)
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/)
@@ -15,6 +11,6 @@ There are several lightweight markup languages that are *supersets* of Markdown.
 - [MultiMarkdown](https://fletcherpenney.net/multimarkdown/)
 - [R Markdown](https://rmarkdown.rstudio.com/)
 
-### Markdown Processors
+## Markdown 处理器
+有许多[Markdown处理器](https://github.com/markdown/markdown.github.com/wiki/Implementations)可用。它们中的许多允许您添加启用扩展语法元素的扩展。查看您所使用处理器的文档以获取更多信息。
 
-There are [dozens of Markdown processors](https://github.com/markdown/markdown.github.com/wiki/Implementations) available. Many of them allow you to add extensions that enable extended syntax elements. Check your processor's documentation for more information.

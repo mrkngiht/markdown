@@ -1,26 +1,18 @@
----
-title: Automatic URL Linking
-syntax-id: automatic-url-linking
----
-
-Many Markdown processors automatically turn URLs into links. That means if you type http://www.example.com, your Markdown processor will automatically turn it into a link even though you haven’t [used brackets](/basic-syntax/#links).
+# 自动网址链接
+许多Markdown处理器会自动将URL转换为链接。这意味着如果您输入http://www.example.com，即使您未[使用方括号](/basic-syntax/links.html)，您的Markdown处理器也会自动将其转换为链接。
 
 ```
 http://www.example.com
 ```
-
-The rendered output looks like this:
+呈现的输出如下所示：
 
 [http://www.example.com](http://www.example.com)
 
-## Disabling Automatic URL Linking
-
-If you don't want a URL to be automatically linked, you can remove the link by [denoting the URL as code](/basic-syntax/#code) with backticks.
-
+## 禁用自动URL链接
+如果您不希望自动链接URL，则可以通过将URL表示为带反引号的代码来删除该链接。
 ```
 `http://www.example.com`
 ```
-
-The rendered output looks like this:
+呈现的输出如下所示：
 
 `http://www.example.com`
