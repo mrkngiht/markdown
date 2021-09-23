@@ -4,7 +4,7 @@ module.exports = {
 locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'Markdown 语法教程',
+      title: 'Markdown 官方教程',
     },
   },
   head: [

@@ -1,31 +1,29 @@
----
-title: Heading IDs
-syntax-id: heading-ids
-syntax-summary: "### My Great Heading {#custom-id}"
----
+# Markdown 标题编号
 
-Many Markdown processors support custom IDs for [headings](/basic-syntax/#headings) — some Markdown processors automatically add them. Adding custom IDs allows you to link directly to headings and modify them with CSS. To add a custom heading ID, enclose the custom ID in curly braces on the same line as the heading.
+许多Markdown处理器支持[标题](/basic-syntax/headings.html)的自定义ID - 一些Markdown处理器会自动添加它们。添加自定义ID允许您直接链接到标题并使用CSS对其进行修改。要添加自定义标题ID，请在与标题相同的行上用大括号括起该自定义ID。
 
 ```text
 ### My Great Heading {#custom-id}
 ```
 
-The HTML looks like this:
+HTML看起来像这样：
 
 ```html
 <h3 id="custom-id">My Great Heading</h3>
 ```
 
-### Linking to Heading IDs
+## 链接到标题ID (#headid)
 
-You can link to headings with custom IDs in the file by creating a [standard link](/basic-syntax/#links) with a number sign (`#`) followed by the custom heading ID.
+通过创建带有数字符号（`#`）和自定义标题ID的[标准链接]((/basic-syntax/links.html)，可以链接到文件中具有自定义ID的标题。
+
+
 
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
       <th>Markdown</th>
       <th>HTML</th>
-      <th>Rendered Output</th>
+      <th>预览效果</th>
     </tr>
   </thead>
   <tbody>
@@ -37,4 +35,4 @@ You can link to headings with custom IDs in the file by creating a [standard lin
   </tbody>
 </table>
 
-Other websites can link to the heading by adding the custom heading ID to the full URL of the webpage (e.g, `[Heading IDs](https://www.markdownguide.org/extended-syntax#heading-ids)`).
+其他网站可以通过将自定义标题ID添加到网页的完整URL（例如`[Heading IDs](https://markdown.com.cn/extended-syntax/heading-ids.html#headid)`）来链接到标题。

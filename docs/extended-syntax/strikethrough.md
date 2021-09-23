@@ -1,15 +1,9 @@
----
-title: Strikethrough
-syntax-id: strikethrough
-syntax-summary: "~~The world is flat.~~"
----
-
-You can strikethrough words by putting a horizontal line through the center of them. The result looks ~~like this~~. This feature allows you to indicate that certain words are a mistake not meant for inclusion in the document. To strikethrough words, use two tilde symbols (`~~`) before and after the words.
+# markdown 删除线
+您可以通过在单词中心放置一条水平线来删除单词。结果看起来~~像这样~~。此功能使您可以指示某些单词是一个错误，并不表示要包含在文档中。若要删除单词，请`~~`在单词前后使用两个波浪号。
 
 ```
-~~The world is flat.~~ We now know that the world is round.
+~~世界是平坦的。~~ 我们现在知道世界是圆的。
 ```
+呈现的输出如下所示：
 
-The rendered output looks like this:
-
-~~The world is flat.~~ We now know that the world is round.
+~~世界是平坦的。~~ 我们现在知道世界是圆的。

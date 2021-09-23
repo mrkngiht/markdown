@@ -1,12 +1,5 @@
----
-title: Definition Lists
-syntax-id: definition-lists
-syntax-summary: |
-  term
-  : definition
----
-
-Some Markdown processors allow you to create *definition lists* of terms and their corresponding definitions. To create a definition list, type the term on the first line. On the next line, type a colon followed by a space and the definition.  
+# Markdown 定义列表
+一些Markdown处理器允许您创建术语及其对应定义的*定义列表*。要创建定义列表，请在第一行上键入术语。在下一行，键入一个冒号，后跟一个空格和定义。
 
 ```
 First Term
@@ -16,8 +9,7 @@ Second Term
 : This is one definition of the second term.
 : This is another definition of the second term.
 ```
-
-The HTML looks like this:
+HTML看起来像这样：
 
 ```html
 <dl>
@@ -29,11 +21,12 @@ The HTML looks like this:
 </dl>
 ```
 
-The rendered output looks like this:
+呈现的输出如下所示：
 
-First Term
-: This is the definition of the first term.
-
-Second Term
-: This is one definition of the second term.
-: This is another definition of the second term.
+<dl>
+  <dt>First Term</dt>
+  <dd>This is the definition of the first term.</dd>
+  <dt>Second Term</dt>
+  <dd>This is one definition of the second term. </dd>
+  <dd>This is another definition of the second term.</dd>
+</dl>
